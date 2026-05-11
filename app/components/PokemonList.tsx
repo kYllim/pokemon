@@ -1,7 +1,7 @@
 import PokemonCard from "./PokemonCard";
 
 export default async function PokemonList() {
-    const res = await fetch('https://nestjs-pokedex-api.vercel.app/pokemons');
+    const res = await fetch('https://nestjs-pokedex-api.vercel.app/pokemons?limit=50');
     const pokemons: [
         {
             id: number;
