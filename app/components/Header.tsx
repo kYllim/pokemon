@@ -1,0 +1,17 @@
+import Link from 'next/link';
+
+
+export default function Header() {
+  return (
+    <header className="sticky top-0 z-50 w-full bg-white/80 backdrop-blur-md border-b border-slate-100">
+      <div className="max-w-7xl mx-auto px-8 h-20 flex items-center justify-between gap-8">
+        <Link href="/" className="text-xl font-light text-slate-900 shrink-0">
+          POKEDEX
+        </Link>
+
+        
+
+      </div>
+    </header>
+  );
+}
